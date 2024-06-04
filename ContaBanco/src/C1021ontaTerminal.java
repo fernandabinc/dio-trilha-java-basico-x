@@ -1,15 +1,8 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class ContaTerminal {
+public class C1021ontaTerminal {
     public static void main(String[] args) throws Exception {
-       //TODO:Conhecer e  importar a classe scanner
-
-       //Exibir as mensagens para nossos usuarios 
-
-       //Obter pela scanner os valores digitados no terminal
-       
-       //criando o objeto scanner
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
         
         System.out.println("Por favor, digite o número da sua conta:");
